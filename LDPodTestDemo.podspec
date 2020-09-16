@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDPodTestDemo'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of LDPodTestDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -22,14 +22,14 @@ TODO: Add long description of the pod here.
                        DESC
 
 #库的首页
-  s.homepage         = 'https://github.com/lidong/LDPodTestDemo'
+  s.homepage         = 'https://github.com/daolelidong/LDPodTestDemo.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 #库的证书
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
 #库的作者
   s.author           = { 'lidong' => 'lidong@meishubao.com' }
 #库的源地址
-  s.source           = { :git => 'https://github.com/lidong/LDPodTestDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/daolelidong/LDPodTestDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 #库的依赖版本
   s.ios.deployment_target = '8.0'
