@@ -21,22 +21,28 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
+#库的首页
   s.homepage         = 'https://github.com/lidong/LDPodTestDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+#库的证书
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
+#库的作者
   s.author           = { 'lidong' => 'lidong@meishubao.com' }
+#库的源地址
   s.source           = { :git => 'https://github.com/lidong/LDPodTestDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+#库的依赖版本
   s.ios.deployment_target = '8.0'
-
+#库的源码位置
   s.source_files = 'LDPodTestDemo/Classes/**/*'
-  
+#库的资源文件
   # s.resource_bundles = {
   #   'LDPodTestDemo' => ['LDPodTestDemo/Assets/*.png']
   # }
-
+#库的公开头文件地址
   # s.public_header_files = 'Pod/Classes/**/*.h'
+#库的依赖的系统库
   # s.frameworks = 'UIKit', 'MapKit'
+#库的依赖的第三方库
   # s.dependency 'AFNetworking', '~> 2.3'
 end

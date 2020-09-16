@@ -1,0 +1,6 @@
+framework module LDPodTestDemo {
+  umbrella header "LDPodTestDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
