@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LDPodTestDemo_Example' do
+  pod 'LDPodTestDemo', :path => '../'
+
+  target 'LDPodTestDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
